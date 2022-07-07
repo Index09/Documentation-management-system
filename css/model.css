@@ -1,0 +1,152 @@
+.btn-primary
+	{
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+	}
+.btn-primary a
+	{
+	color: #fff;
+	}
+.btn-primary a:hover
+	{
+	color: #fff;
+	}
+.btn 
+	{
+    display: inline-block;
+    padding: 7px 51px;
+    margin: 10px 20px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 2;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+	}
+.btn-primary:hover 
+	{
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+	}
+.btn-primary:focus 
+	{
+    color: #fff;
+    background-color: #286090;
+    border-color: #122b40;
+	}
+.modal-open .modal 
+	{
+    overflow-x: hidden;
+    overflow-y: auto;
+	}
+.fade.in 
+	{
+    opacity: 1;
+	}
+.modal 
+	{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    outline: 0;
+	}
+.fade 
+	{
+    transition: opacity .15s linear;
+	}
+.modal-dialog 
+	{
+    width: 65vw;
+    margin: 15% auto;
+    position: relative;
+	}
+.modal.in .modal-dialog 
+	{
+    -webkit-transform: translate(0,0);
+	}
+.modal.fade .modal-dialog 
+	{
+    transition: transform .3s ease-out;
+	}
+.modal-content 
+	{
+    position: relative;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border-radius: 6px;
+    outline: 0;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	}
+.modal-header 
+	{
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+	}
+modal-footer:after, .modal-footer:before, .modal-header:after, .modal-header:before
+	{
+	display: table;
+    content: " ";
+	}
+.modal-body 
+	{
+    position: relative;
+    padding: 15px;
+	text-align: center;
+	}
+.modal-footer 
+	{
+    padding: 15px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5;
+	}
+.close:not(:disabled):not(.disabled) 
+	{
+    cursor: pointer;
+	}
+.modal-header .close 
+	{
+    margin: -1rem -1rem -1rem auto;
+	}
+button.close 
+	{
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-appearance: none;
+	}
+.close 
+	{
+    float: left;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 0;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+	}
+.close:focus, .close:hover 
+	{
+    color: #000;
+    text-decoration: none;
+    opacity: .75;
+	}
+.modal-title 
+	{
+    margin-bottom: 0;
+    line-height: 1.5;
+	}	
+@media (min-width: 768px)

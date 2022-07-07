@@ -1,0 +1,31 @@
+<?php
+ob_start();
+include 'config.php';
+error_reporting(E_ALL ^ E_NOTICE);
+if ($_SESSION['Role'] == 'Admin1' or $_SESSION['Role'] == 'Admin' or $_SESSION['Role'] == 'User')
+	
+	{ echo ' <div style="border:1px; background:gray; height:40px">
+				<table style="width:30%; font-size:22px">
+					<tr>';
+							echo '<td width="'.$wid.'%"><a href="index.php?settings=enter">الاعدادات</a></td>
+					</tr>
+				</table>
+			</div>';
+		
+						if (isset($_GET["settings"])){
+						echo '<ul dir="rtl">';
+						if ($_SESSION['Role'] === 'Admin1')
+							{
+							echo '<li><a href="index.php?url=offices">مكاتب الشهر العقارى اليدوية</a></li>';
+							}
+						echo '<li><a href="index.php?url=edit_pass">تغيير وإعادة تعيين كلمة السر</a></li>';
+						if ($_SESSION['Role'] === 'Admin1' or $_SESSION['Role'] === 'Admin')
+							{
+							echo '<li><a href="index.php?url=signup">انشاء حساب جديد</a></li>';
+							echo '<li><a href="mybackup.php">تنزيل Backup لقاعدة البيانات</a></li>';
+							}
+						echo '</ul>';
+						}
+		}
+?>
+</center>

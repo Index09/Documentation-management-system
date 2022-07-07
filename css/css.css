@@ -1,0 +1,250 @@
+@charset "utf-8";
+
+.formtit {
+	color: #FF6;
+	background-color: #006;
+	width: 38vw;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	height: 35px;
+	font-weight: bolder;
+	text-align: center;
+	text-shadow: 0px 0px #FFFF66;
+	padding: .9vw 0;
+	font-size: 2.25vw;
+	border-radius: 30px;
+	background-image: -webkit-gradient(linear, 100.00% 24.52%, 0.00% 75.48%, color-stop( 0% , rgba(51,53,100,1.00)),color-stop( 12.95% , rgba(255,255,255,1.00)),color-stop( 25.39% , rgba(57,59,105,1.00)),color-stop( 51.81% , rgba(8,12,69,1.00)),color-stop( 78.24% , rgba(19,22,76,1.00)),color-stop( 87.05% , rgba(233,233,238,1.00)),color-stop( 97.93% , rgba(47,49,98,1.00)));
+	background-image: -webkit-linear-gradient(207deg,rgba(51,53,100,1.00) 0%,rgba(255,255,255,1.00) 12.95%,rgba(57,59,105,1.00) 25.39%,rgba(8,12,69,1.00) 51.81%,rgba(19,22,76,1.00) 78.24%,rgba(233,233,238,1.00) 87.05%,rgba(47,49,98,1.00) 97.93%);
+	background-image: linear-gradient(243deg,rgba(51,53,100,1.00) 0%,rgba(255,255,255,1.00) 12.95%,rgba(57,59,105,1.00) 25.39%,rgba(8,12,69,1.00) 51.81%,rgba(19,22,76,1.00) 78.24%,rgba(233,233,238,1.00) 87.05%,rgba(47,49,98,1.00) 97.93%);
+}
+.ser1 {
+	background-color: #b042b56e;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: auto;
+	padding-right: auto;
+	width: 90%;
+	border-radius: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.ser1 tr .td {
+	background-color: #FFFFFF;
+	color: #000000;
+	text-align: center;
+	font-weight: bold;
+	width: 25%;
+	height: 20px;
+	padding-top: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	border: thin groove #000066;
+}
+.tab {
+	margin-top: 20px;
+	margin-bottom:20px;
+	text-align: center;
+}
+#sel{
+	width: 200px;
+	height: 22px;
+}
+/*nav*/
+.container {
+	width: 80%;
+	margin: 5px auto;
+	text-align: center;
+    font-size: 1.2vw;
+		}
+
+nav ul {
+	background-color: #000000;
+	list-style: none;
+	position: relative;
+	border-radius:20px;
+}
+
+nav ul li {
+    display: inline-block;
+    transition: .3s;
+}
+
+nav ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	padding: 0.8vw 4vw;
+	font-weight: bold;
+}
+
+nav ul li:hover {
+    background-color: #0C8AC8;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: #eeeeee;
+}
+
+nav ul ul li {
+    position: relative;
+    display: block;
+    border-bottom: 1px solid #aaaaaa;
+}
+
+nav ul ul li a {
+    color: #000000;
+}
+
+nav ul ul li:hover > a {
+    color: #ffffff;
+}
+
+nav ul ul ul {
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+
+nav ul ul ul li:first-child {
+    border-top: 1px solid #aaaaaa;
+}
+/*members*/
+#Header 
+	{
+	background-color: #009;
+	height: 125px;
+	width: auto;
+	margin: auto;
+	border-color: #FFF;
+	text-align: center;
+	border-top-left-radius: 200px;
+	border-top-right-radius: 200px;
+	}
+body 
+	{
+	direction: rtl;	
+	}
+
+
+	}
+#option
+	{
+	height: 0px;
+	font-size: large;
+	}
+#client
+	{
+	background-color: #006;
+	text-align: center;
+	clear: both;
+	height: 20px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	color: #FFFFFF;
+	font-weight: bolder;
+	font-size: large;
+	padding: 3px;
+	max-width: 40%;
+
+	}
+#clients
+	{
+	width: auto;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	}
+#Rside #TopCli #clients input
+	{
+	width: 98%;
+	margin-left: 3%;
+	font-size:16px;
+	font-weight:bold;
+	}
+#Rside #TopCli .box2
+	{
+	/*margin-right: 10px;
+	margin-left: 10px;*/
+	}
+#Rside #TopCli .box2 input
+	{
+	width: 69px;
+	}
+#Rside #TopCli #clients select
+	{
+	clear: both;
+	}
+
+.cora tr
+	{
+	background-color: #CCCCCC;
+	
+	}
+.cora td
+	{
+	background-color: #b2afff;
+	width:auto;
+	font-weight:bold;
+	font-size:14px;
+	}
+/*memers form*/
+.box {
+	display: inline-block;
+	text-align: center;
+	margin: 5px;
+}
+.box select {
+	font-weight: bold;
+	font-size: 15px;
+	width: auto;
+	display:inline-block;
+	margin: 5px;
+}
+#lab {
+	font-weight: bold;
+	color: #000066;
+	display:inline-block;
+}
+#date
+	{
+	float: right;
+	}
+#Rside
+	{
+    margin: auto;
+    padding: 5px;
+    overflow: auto; /*to fit its cintent height*/
+    width: 80%;
+	display:inline-block;
+	}
+#TopCli
+	{
+	background-color: #ffd8ff82;
+	height: auto;
+	width: auto;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+	}
+#Rside #TopCli input
+	{
+	width:auto;
+	display:inline-block;

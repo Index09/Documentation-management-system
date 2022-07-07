@@ -1,0 +1,17 @@
+This is an excerpt from the httpd.ini without all the comments
+<Directory "d:/wamp/www/markbatzaq">
+    Options Indexes FollowSymLinks
+    AllowOverride all
+#   onlineoffline tag - don't remove
+    Order Deny,Allow
+    Deny from all
+    Allow from 127.0.0.1
+    </Directory>
+	
+    Alias /my_other_upload_folder_alias "d:/image/"
+    <Directory "d:/image/">
+        AllowOverride All
+        Order Deny,Allow
+        Deny from All
+        Allow from 127.0.0.1
+    </Directory>

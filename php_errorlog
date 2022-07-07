@@ -1,0 +1,31 @@
+[20-Apr-2020 14:44:19 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/sharmpos/web-fox.net/admin/config.php:2
+Stack trace:
+#0 /home/sharmpos/web-fox.net/admin/index.php(4): include()
+#1 {main}
+  thrown in /home/sharmpos/web-fox.net/admin/config.php on line 2
+[20-Apr-2020 21:48:51 Africa/cairo] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/sharmpos/web-fox.net/admin/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/sharmpos/web-fox.net/admin/index.php on line 25
+[20-Apr-2020 22:46:17 Africa/cairo] PHP Parse error:  syntax error, unexpected ')' in /home/sharmpos/web-fox.net/admin/offices.php on line 47
+[20-Apr-2020 22:47:32 Africa/cairo] PHP Warning:  rmdir(imgs/2012742204): No such file or directory in /home/sharmpos/web-fox.net/admin/offices.php on line 58
+[20-Apr-2020 23:07:59 Africa/cairo] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/sharmpos/web-fox.net/admin/edit_pass.php:50
+Stack trace:
+#0 /home/sharmpos/web-fox.net/admin/index.php(42): require()
+#1 {main}
+  thrown in /home/sharmpos/web-fox.net/admin/edit_pass.php on line 50
+[20-Apr-2020 23:27:12 Africa/cairo] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/sharmpos/web-fox.net/admin/cnr.php:203
+Stack trace:
+#0 /home/sharmpos/web-fox.net/admin/index.php(41): require()
+#1 {main}
+  thrown in /home/sharmpos/web-fox.net/admin/cnr.php on line 203
+[20-Apr-2020 23:30:34 Africa/cairo] PHP Parse error:  syntax error, unexpected '$has' (T_VARIABLE) in /home/sharmpos/web-fox.net/admin/reportd.php on line 189
+[20-Apr-2020 23:35:15 Africa/cairo] PHP Warning:  Illegal string offset 'office' in /home/sharmpos/web-fox.net/admin/signup.php on line 32
+[20-Apr-2020 23:35:15 Africa/cairo] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/sharmpos/web-fox.net/admin/signup.php:35
+Stack trace:
+#0 /home/sharmpos/web-fox.net/admin/index.php(40): require()
+#1 {main}
+  thrown in /home/sharmpos/web-fox.net/admin/signup.php on line 35
+[20-Apr-2020 23:37:03 Africa/cairo] PHP Warning:  Illegal string offset 'office' in /home/sharmpos/web-fox.net/admin/signup.php on line 32
+[21-Apr-2020 00:25:47 Africa/cairo] PHP Parse error:  syntax error, unexpected ')' in /home/sharmpos/web-fox.net/admin/search.php on line 7
+[21-Apr-2020 00:27:17 Africa/cairo] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/sharmpos/web-fox.net/admin/search.php on line 100
